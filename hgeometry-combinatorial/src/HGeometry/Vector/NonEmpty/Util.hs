@@ -22,7 +22,7 @@ type instance IxValue (NonEmptyVector a) = a
 instance Ixed (NonEmptyVector a) where
   ix i f (NonEmptyVector v) = NonEmptyVector <$> ix i f v
 
-instance Foldable1 NonEmptyVector
+--instance Foldable1 NonEmptyVector
 instance Traversable1 NonEmptyVector where
   traverse1 f (NonEmptyVector v) =
       -- Get the length of the vector in /O(1)/ time

@@ -20,7 +20,7 @@ import           Test.QuickCheck (Arbitrary (..), NonEmptyList (..))
 
 
 -- FIXME: Upstream this to the non-empty vector library?
-instance Foldable1 NV.NonEmptyVector
+--instance Foldable1 NV.NonEmptyVector
 
 -- | Access the ith item in the CircularVector (w.r.t the rotation) as a lens
 item   :: Int -> Lens' (CircularVector a) a
