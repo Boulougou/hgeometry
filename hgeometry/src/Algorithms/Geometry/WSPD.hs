@@ -23,6 +23,7 @@ module Algorithms.Geometry.WSPD
 
 import           Algorithms.Geometry.WSPD.Types
 import           Control.Lens hiding (Level, levels)
+import           Control.Monad
 import           Control.Monad.Reader
 import           Control.Monad.ST (ST,runST)
 import           Data.BinaryTree

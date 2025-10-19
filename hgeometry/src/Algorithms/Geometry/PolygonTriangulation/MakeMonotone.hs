@@ -20,6 +20,7 @@ import           Algorithms.Geometry.PolygonTriangulation.Types
 import           Control.Lens
 import           Control.Monad.Reader
 import           Control.Monad.State.Strict
+import           Control.Monad
 import           Control.Monad.Writer (WriterT, execWriterT, tell)
 import           Data.Bifunctor
 import qualified Data.DList as DList
